@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: xnews-bot
+    env: python
+    plan: free
+    startCommand: python3 manual_news.py
+    envVars:
+      - key: TG_TOKEN
+        value: "8438245960:AAHfyBOowH1AvetHFYRa0bDVbdMX6vEFFI0"
+      - key: TG_CHAT
+        value: "-1002933967805"
