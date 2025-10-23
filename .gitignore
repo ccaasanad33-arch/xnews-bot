@@ -5,3 +5,6 @@ __pycache__/
 *.sqlite
 .env
 sent.db
+.env
+us_stocks_only.txt
+*.log
