@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 *.pyc
-.venv/
-__pycache__/
-*.pyc
+*.db
+*.sqlite
+.env
+sent.db
